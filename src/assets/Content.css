@@ -1,0 +1,26 @@
+.content-page{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-container{
+    width: 700px;
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.card{
+    padding: 20px;
+}
+
+.table{
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px; 
+}
+
+.table-info{
+    margin-top: 10px;
+}

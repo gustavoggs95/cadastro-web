@@ -1,0 +1,70 @@
+.register-page{
+    flex: 1;
+    box-shadow: 0px 0px 10px 1px rgb(117,117,117);
+}
+
+.side-menu{
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+
+  .register-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: deepskyblue;
+    border-radius: 100%;
+    color: white;
+  }
+
+  .form{
+      width: 100%
+  }
+
+  .name-container{
+    position: absolute;
+    width: 100%;
+    right: 0px;
+  }
+  .endereco-container{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+  }
+
+    .fadeOutNome{
+        opacity:0;
+        margin-right: 90%;
+        transition: margin-right 0.5s, opacity 0.5s;
+    }
+
+    .fadeInNome{
+        opacity:1;
+        margin-right: 0px;
+        transition: margin-right 0.5s, opacity 0.5s;
+    }
+
+    .fadeOutEndereco{
+        opacity:0;
+        margin-left: 90%;
+        transition: margin-left 0.5s, opacity 0.5s;
+    }
+
+    .fadeInEndereco{
+        opacity:1;
+        margin-left: 0px;
+        transition: margin-left 0.5s , opacity 0.5s;
+    }
+
+    .step-container{
+        display: flex;
+        position: relative;
+        height: 180px;
+    }
