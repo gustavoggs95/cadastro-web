@@ -1,9 +1,9 @@
-# Aplicação criada com React.JS e Material UI
+## Aplicação de cadastro de usuarios criada com React.JS e Material UI
 
-## Comandos para executar a aplicação:
+# Comandos para executar a aplicação:
 
-# Instalar Dependencias:
+## Instalar Dependencias:
 yarn install
 
-# Executar o codigo:
+## Executar o codigo:
 yarn start
